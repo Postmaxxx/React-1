@@ -1,0 +1,19 @@
+.menuItems {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;    
+}
+.menuItem {
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 16px;
+    transition: 0.3s;
+}
+
+
+.menuItem:hover {
+    cursor: pointer;
+    font-size: 20px;
+}
+

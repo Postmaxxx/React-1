@@ -1,0 +1,34 @@
+.userProfile {
+    display: flex;
+    align-items: center;
+}
+
+
+.userLogo {
+    height: 39px;
+    width: 39px;
+    border: 2px solid #FFFFFF;
+    background-color: #FFF;
+    border-radius: 50%;
+    margin-right: 7px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.userArrow {
+    height: 5px;
+    width: 5px;
+    border-bottom: 2px solid #FFF;
+    border-left: 2px solid #FFF;
+}
+
+
+.userArrowDown {
+    transform: rotate(-45deg);
+}
+
+
+.userArrowUp {
+    transform: rotate(135deg);
+}

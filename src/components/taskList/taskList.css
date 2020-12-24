@@ -1,0 +1,71 @@
+.tasklist {
+    max-height: 500px;
+    overflow: auto;
+}
+
+
+::-webkit-scrollbar {
+    background-color: #FFF;
+    width: 12px;
+  }
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #CBCBCB;
+  }
+
+.tasklist > ul {
+    margin: 0;
+    padding: 0;
+    margin-right: 12px;
+}
+
+.tasklist > ul > li {
+    width: 100%;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    padding: 7px 8px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    list-style-type: none;
+    margin-top: 15px;
+    border-radius: 5px;   
+}
+
+.tasklist > ul > li:hover {
+    background-color: #DEDEDE;
+    cursor: pointer;
+}
+
+.tasklist-for-migrate {
+    width: calc(100% - 12px);
+    margin-top: 3px;
+    max-height: 300px;
+    overflow: auto;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.tasklist-for-migrate > ul {
+    margin: 0;
+    padding: 0;
+    margin-right: 12px;
+}
+
+
+.tasklist-for-migrate > ul > li {
+    width: 100%;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    padding: 7px 8px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    list-style-type: none; 
+}
+
+.tasklist-for-migrate > ul > li:hover {
+    background-color: #DEDEDE;
+    cursor: pointer;
+}

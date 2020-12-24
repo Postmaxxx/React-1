@@ -1,0 +1,35 @@
+.additionalInfoBlock {
+    height: calc(100vh - 150px);
+    margin: 22px 28px 20px 26px;
+    background-color: #FFF;
+    border-radius: 5px;
+    padding: 22px 28px;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+.additionalInfoBlock > h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.additionalInfoItem {
+    border-bottom: 2px solid #DEDEDE;
+    width: 621px;
+    margin-top: 40px;
+}
+
+
+.additionalInfoItem > h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.additionalInfoItem > p {
+    padding: 0;    
+    margin: 35px 0 10px;
+    font-size: 18px;
+    line-height: 21px;
+}

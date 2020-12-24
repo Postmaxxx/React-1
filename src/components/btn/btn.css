@@ -1,0 +1,38 @@
+.btn {
+    margin-top: 17px;
+    width: 102px;
+    height: 29px;
+    border-radius: 5px;
+    padding: 6px 7px 8px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    color: #5E6C84;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background: #FFFFFF;
+}
+
+.btn:focus {
+    border: 0px solid transparent;
+}
+
+.btn-submit {
+    background: #0079BF;
+    color: #FFFFFF;
+}
+
+.btn-submit:hover {
+    background: #0079BF;
+    color: #FFFFFF;
+}
+
+.btn:disabled {
+    cursor: auto;
+    background-color: transparent;
+    color: #cacaca;
+}

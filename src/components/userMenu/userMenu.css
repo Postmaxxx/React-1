@@ -1,0 +1,20 @@
+.userMenuTip {
+    width: 11px;
+    height: 11px;
+    position: absolute;
+    top: 57px;
+    right: 50px;
+    transform: rotate(45deg);
+    background-color: #FFF;
+}
+    
+.userMenu {
+    background-color: #FFF;
+    width: 134px;
+    color: #000;
+    padding: 0px 7px 9px;
+    position: absolute;
+    top: 62px;
+    right: 30px;
+    border-radius: 5px;
+}
